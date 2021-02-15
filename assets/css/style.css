@@ -1,0 +1,78 @@
+    /*Estilos para página index.html*/
+    .center{
+        text-align: center;
+    }
+
+    .background{
+        background-color: greenyellow;
+    }
+
+    .justify{
+        text-align: justify;
+    }
+
+    .container{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    #menu li{
+        display: inline;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    #menu li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    #menu li a :hover{
+        color: gray;
+    }
+
+    .br-25{
+        border-radius: 25%;
+    }
+
+    
+    .p-25{
+        padding: 25px;
+    }
+
+    .p-100{
+        padding: 100px;
+    }
+
+    .tm-social{
+        width: 50px;
+        height: 50px;
+    }
+
+    .mb-50{
+        margin-bottom: 50px;
+    }
+
+
+    /*Estilos para página contato.html*/
+
+    .containercontato{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ml-50{
+        margin-left: 50px;
+    }
